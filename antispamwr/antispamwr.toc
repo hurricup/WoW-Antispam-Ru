@@ -1,0 +1,11 @@
+## Interface: 60100
+# WowRaider antispam addon v6.1
+# Website: http://wowraider.net
+## Title: WowRaider.Ru antispam addon
+## Notes: WowRaider.Ru antispam addon
+## SavedVariables: antispamwr_magics
+## DefaultState: enabled
+antispamwr.xml
+antispamwr.lua
+
+
