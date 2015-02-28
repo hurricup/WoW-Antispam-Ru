@@ -5,6 +5,8 @@
 ## Notes: WowRaider.Ru antispam addon
 ## SavedVariables: antispamwr_magics
 ## DefaultState: enabled
+## X-Website: https://github.com/hurricup/WoW-Antispam-Ru
+## X-Feedback: https://github.com/hurricup/WoW-Antispam-Ru/issues
 antispamwr.xml
 antispamwr.lua
 
