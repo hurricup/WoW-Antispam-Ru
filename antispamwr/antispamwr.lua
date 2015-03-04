@@ -310,6 +310,8 @@ function antispamwr_Init()
             ["wowgydrasale"] = 1000,
             ["paywow"] = 1000,
             ["white-tavern"] = 1000,
+            ["wow-nexus.ru"] = 1000, 
+            ["saledraenor"] = 1000, 
             
             ["продам голд"] = 1000,
             ["куплю голд"] = 1000,
