@@ -1,6 +1,6 @@
 local firsttab = true
 local result = false
-local version = "6.1"
+local version = GetAddOnMetadata("antispamwr", "Version")
 local autoban = 100
 
 function antispamwr_postFilter(...)
@@ -28,13 +28,13 @@ function antispamwr_SlashHandler(msg, box)
         print ("Жалоб в эту сессию: "..antispamwr_magics["statistic"]["session"]);
         print ("Жалоб всего: "..antispamwr_magics["statistic"]["total"]);
     else
-        print ("Антиспам аддон от WowRaider.Net версия "..version)
+        print ("Антиспам аддон от WowRaider.Ru версия "..version)
         print ("Список команд:")
-        print (" /aswr help - показывает подсказку")
-        print (" /aswr stat - показывает статистику")
-        print (" /aswr purge all - очищает все словари, обнуляет обучение")
-        print (" /aswr purge black - очищает словари заблокированных сообщений и имен")
-        print (" /aswr purge white - очищает словари сообщений белого списка")
+        print ("  /aswr help - показывает подсказку")
+        print ("  /aswr stat - показывает статистику")
+        print ("  /aswr purge all - очищает все словари, обнуляет обучение")
+        print ("  /aswr purge black - очищает словари заблокированных сообщений и имен")
+        print ("  /aswr purge white - очищает словари сообщений белого списка")
     end
 
 end
@@ -276,6 +276,7 @@ function antispamwr_Init()
             ["кorobeinik"] = 1000,
             ["wow-store"] = 1000,
             ["draenorgold.ru"] = 1000,
+            ["lvl-money.ru"] = 1000,
 
             ["bornboost"] = 1000,
             ["draeneigold.ru"] = 1000,
@@ -312,6 +313,7 @@ function antispamwr_Init()
             ["white-tavern"] = 1000,
             ["wow-nexus.ru"] = 1000, 
             ["saledraenor"] = 1000, 
+            ["wow-golda"] = 1000, 
             
             ["продам голд"] = 1000,
             ["куплю голд"] = 1000,
@@ -350,6 +352,7 @@ function antispamwr_Init()
             ["qiwi"] = 50,
             ["монеты"] = 50,
             ["золот"] = 50,
+            ["печенье"] = 50,
             
             ["золото]|h|r"] = -100,
             ["0|h[золот"] = -100,

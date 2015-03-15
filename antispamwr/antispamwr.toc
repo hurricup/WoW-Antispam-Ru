@@ -1,8 +1,9 @@
 ## Interface: 60100
-# WowRaider antispam addon v6.1
-# Website: http://wowraider.net
 ## Title: WowRaider.Ru antispam addon
+## Version: 6.1.1
+## Author: Alexandr Evstigneev (hurricup@evstigneev.com)
 ## Notes: WowRaider.Ru antispam addon
+## Notes-ruRU: Аддон для борьбы со спамом от WowRaider.Ru
 ## SavedVariables: antispamwr_magics
 ## DefaultState: enabled
 ## X-Website: https://github.com/hurricup/WoW-Antispam-Ru
