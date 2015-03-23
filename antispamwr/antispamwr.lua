@@ -277,6 +277,8 @@ function antispamwr_Init()
             ["wow-store"] = 1000,
             ["draenorgold.ru"] = 1000,
             ["lvl-money.ru"] = 1000,
+            ["9peso.ru"] = 1000,
+            ["archemoney.ru"] = 1000,
 
             ["bornboost"] = 1000,
             ["draeneigold.ru"] = 1000,
